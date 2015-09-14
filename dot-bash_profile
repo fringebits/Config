@@ -1,0 +1,8 @@
+
+export DEVELOPER_DIR="/Applications/Xcode.app/Contents/Developer"
+export PATH=$PATH:~/Tools/BinScopeForMac:~/Tools/checker-276
+
+alias pretty='uncrustify -c ~/.uncrustify/uncrustify.cfg --replace --no-backup $@' # Preferred 'cp' implementation
+alias plcrashutil='~/Development/plcrashreporter/build/Release/PLCrashReporter-1.2.1/Tools/plcrashutil'
+alias symbolicatecrash='/Applications/Xcode.app/Contents/SharedFrameworks/DTDeviceKitBase.framework/Versions/A/Resources/symbolicatecrash'
+
